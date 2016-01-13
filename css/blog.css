@@ -1,0 +1,11 @@
+.artigo{
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 30px;
+}
+
+.link-leia-mais{
+    text-align: center;
+    margin-bottom: 20px;
+    display: block;
+}

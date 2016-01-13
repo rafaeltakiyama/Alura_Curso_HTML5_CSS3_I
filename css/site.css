@@ -1,0 +1,136 @@
+body {
+    font-family: "Crimson Text", "Times New Roman", serif;
+    background-color: #F2FFFC;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+h2 {
+    font-size: 26px;
+    font-family: "Open Sans Condensed", "Arial", sans-serif;
+    clear: both;
+}
+
+.titulo-cabecalho {
+    font-size: 48px;
+    background-color: #851944;
+    color: #FFF;
+    text-align: center;
+    padding: 20px;
+    margin: 0px;
+    border-bottom: 10px solid #000;
+    font-family: "Open Sans Condensed", "Arial", sans-serif;
+    text-transform: uppercase;
+    position: fixed;
+    width: 85%;
+}
+
+p {
+    text-align: justify;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.rodape-copyright {
+    background-color: #000;
+    color: #F2FFFC;
+    padding: 20px;
+    clear: both;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+nav {
+    color: #F2FFFC;
+}
+
+.navegacao-site h1 {
+    font-family: "Open Sans Condensed", "Arial", sans-serif;
+    font-size: 26px;
+    padding: 10px;
+}
+
+main a {
+    color: #851944;
+}
+
+.container {
+    width: 720px;
+    margin: auto;
+    pdding: 30px 0;
+    padding-bottom: 80px;
+    padding-top: 130px;
+}
+
+strong {
+    font-weight: bold;
+}
+em {
+    font-style: italic;
+}
+
+.icones-sociais{
+    margin-top: 10px;
+    display: inline-block;
+}
+
+/*image replacemente*/
+.icones-sociais a {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-indent: -99999px;
+/*    font-size: 0;*/
+}
+
+.github{
+    background-image: url(../img/github.png);
+}
+
+.twitter{
+    background-image: url(../img/twitter.png);
+}
+
+.linkedin{
+    background-image: url(../img/linkedin.png);
+}
+
+main{
+    float: left;
+    width: 85%;
+}
+
+.minha-foto,
+.navegacao-site {
+    float: right;
+    border-left: 10px solid black;
+    border-bottom: 10px solid black;
+    box-sizing: border-box;
+}
+
+.minha-foto{
+    position: fixed;
+    top:0px;
+    right: 0px;
+}
+
+.navegacao-site {
+    background-color: #3C1D3D;
+    text-align: center;
+    clear: right;
+    width: 15%;
+    top: 310px;
+    right: 0;
+    padding-bottom: 20px;
+    position: fixed;
+}
+
+.navegacao-site a {
+    color: inherit;
+    font-family: "Open Sans Condensed", sans-serif;
+    text-decoration: none;
+    text-transform: lowercase;
+}

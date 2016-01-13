@@ -3,10 +3,11 @@
     <head>
         <title>Biografia - Joao da Silva</title>
         <meta charset="utf-8">
-        <link rel="icon" href="favicon.png">
+        <link rel="icon" href="img/favicon.png">
 <!--        <link rel="stylesheet" href="normalize.css">-->
-        <link rel="stylesheet" href="reset.css">
-        <link rel="stylesheet" href="site.css">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/site.css">
+        <link rel="stylesheet" href="css/bio.css">
         <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,600">
         <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700">
     </head>
@@ -14,14 +15,14 @@
     <body>
         <main>
             <h1 class="titulo-cabecalho">Sobre mim</h1>
-            <div>
+            <div class="container">
             
                 <p>Moro em São Paulo mas atendo clientes do mundo todo. Sou conhecido por fazer produtos de <em>qualidade</em>, <em>durabilidade</em> e que <em>agregam valor</em> para meus clientes.</p>
                 <p>Trabalho usando a web como plataforma, ou seja, respiro HTML5, CSS3 e JavaScript (ou melhor: ECMASCript). Crio sites para todos, seguindo as principais diretivas de <strong>acessibilidade, responsividade e web semântica</strong>, sem descuidar da qualidade de código.</p>
 
                 <h2>Como trabalho</h2>
 
-                <blockquote class="citacao">
+                <blockquote class="citacao fiat">
                     <p>João é o melhor desenvolvedor front-end com quem já trabalhei. Muito eficiente e muito capaz. Recomendo sem dúvidas!</p>
                     <cite>José Souza, Fiat</cite>
                 </blockquote>
@@ -33,7 +34,7 @@
 
                 <h2>Experiência</h2>
 
-                <blockquote class="citacao">
+                <blockquote class="citacao petrobras">
                     <p>João domina as tecnologias como ninguém. Eu apresentava um problema, ele tinha na ponta da língua a solução mais adequada com as tecnologias mais recentes.</p>
                     <cite>Manoel Santos, Petrobrás</cite>
                 </blockquote>
@@ -47,9 +48,9 @@
             </div>
         </main>
 
-            <img src="eu.jpg" alt="Foto de João da Silva">
+            <img class="minha-foto" src="img/eu.jpg" alt="Foto de João da Silva">
 
-            <aside>
+            <aside class="navegacao-site">
                 <nav>
                     <h1>João da Silva</h1>
                     <ul>
@@ -62,28 +63,31 @@
                 </nav>
                 
                 <ul class="icones-sociais">
-                    <li>
-                        <a href="https://github.com/joaodasilva" target="_blank">
-                            <img src="github.png" alt="GitHub">
+                    <li class="icones-sociais">
+                        <a class="github" href="https://github.com/joaodasilva" target="_blank">
+                            GitHub
                         </a>
                     </li>
                         
-                    <li>
-                        <a href="https://twitter.com/joaodasilva" target="_blank">
-                            <img src="twitter.png" alt="Twitter">
+                    <li class="icones-sociais">
+                        <a class="twitter" href="https://twitter.com/joaodasilva" target="_blank">
+                            Twitter
                         </a>
                     </li>
                         
-                    <li>
-                        <a href="https://br.linkedin.com/pub/jo%C3%A3o-da-silva/32/4/508" target="_blank">
-                            <img src="linkedin.png" alt="Linkedin">
+                    <li class="icones-sociais">
+                        <a class="linkedin" href="https://br.linkedin.com/pub/jo%C3%A3o-da-silva/32/4/508" target="_blank">
+                            Linkedin
                         </a>
                     </li>
                 </ul>
             </aside>
-    </body>
-    
+        
     <footer class="rodape-copyright">
         &copy; João da Silva 2014
     </footer>
+        
+    </body>
+    
+
 </html>
