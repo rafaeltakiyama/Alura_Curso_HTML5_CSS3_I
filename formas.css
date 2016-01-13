@@ -1,7 +1,0 @@
-div {
-    border-bottom: 30px solid red;
-    border-left: 30px solid transparent;
-    border-right: 30px solid transparent;
-    border-top: 30px solid red;
-    width: 0;
-}
